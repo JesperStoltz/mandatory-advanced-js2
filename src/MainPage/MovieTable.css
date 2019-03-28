@@ -1,0 +1,63 @@
+.movieApp__mainTable {
+    width: 100%;
+    margin: 5px;
+}
+
+.movieApp__mainTable, th, td {
+    margin-top: 20px;
+    border: 1px solid white;
+    border-collapse: collapse;
+    font-weight: bold;
+}
+
+.movieApp__mainTable, th {
+ padding: 2px;
+ font-size: 22px;
+}
+
+.movieApp__mainTable, td {
+    padding: 2px;
+    font-size: 22px;
+}
+
+
+.movieApp_DetailsButton {
+    height: 27px;
+    font-weight: bold;
+    background-color: blue;
+    border: solid black;
+    margin: 2px;
+}
+
+.movieApp_editButton {
+    height: 27px;
+    font-weight: bold;
+    background-color: blue;
+    border: solid black;
+    margin: 2px;
+}
+
+
+
+.movieApp__deleteButton {
+    height: 27px;
+    font-weight: bold;
+    background-color: red;
+    border: solid black;
+    margin: 2px;
+}
+
+.movieApp__deleteButton:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.movieApp_DetailsButton:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.movieApp_editButton:hover {
+    color: white;
+    cursor: pointer;
+}

@@ -1,0 +1,25 @@
+.detailsPage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.movieApp_goEditButton {
+    height: 56px;
+    width: 100px;
+    background-color: rgb(240, 240, 52);
+    margin-left: 10px;
+    font-size: 20px;
+    border: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    border-radius: 10%;
+    position: relative;
+    left: 40%;
+}
+
+.movieApp_goEditButton:hover {
+    background-color: rgb(212, 212, 55);
+    cursor: pointer;
+    font-size: 24px;
+}
